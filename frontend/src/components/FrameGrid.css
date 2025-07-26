@@ -1,0 +1,36 @@
+.frame-grid-container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.access-info {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.frame-grid {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.frame-box {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #444;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.hit {
+  background-color: #d4f7d4;
+}
+
+.miss {
+  background-color: #f7d4d4;
+}
